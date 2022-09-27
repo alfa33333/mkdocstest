@@ -1,1 +1,18 @@
 site_name: Calculation Docs
+
+#theme to select
+theme:
+  name: "material"
+
+#connect with your project docstrings
+plugins:
+  - mkdocstrings
+
+#by default will use alphabetical order, but this changes it
+#The title for each page is defaulted to the file name, but you can change it
+nav:
+  - Calculation Docs: index.md
+  - tutorials.md
+  - How-To Guides: how-to-guides.md
+  - reference.md
+  - explanation.md
