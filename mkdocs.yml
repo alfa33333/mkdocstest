@@ -8,6 +8,12 @@ theme:
 plugins:
   - mkdocstrings
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 #by default will use alphabetical order, but this changes it
 #The title for each page is defaulted to the file name, but you can change it
 nav:

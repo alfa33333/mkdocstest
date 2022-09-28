@@ -30,6 +30,8 @@ mkdocstrings, and the Material for MkDocs theme.
 
 ## Table Of Contents
 
+:smile: 
+
 The documentation follows the best practice for
 project documentation as described by Daniele Procida
 in the [Diátaxis documentation framework](https://diataxis.fr/)
